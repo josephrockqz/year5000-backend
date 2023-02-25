@@ -6,12 +6,12 @@ Logic behind gathering data & storing/retrieving from database
 
 - /cmd is entry point for the application
 - /internal is heart of the application: business logic and database interactions
-- - /app point where all dependencies and logic are collected
-- - /config initialization of general app configurations
-- - /database methods for interacting with database (database layer)
-- - /models structure of database tables (database layer)
-- - /services entire business logic of the application (business layer)
-- - /transport http-server settings, handlers, ports (transportation layer)
+    - /app point where all dependencies and logic are collected
+    - /config initialization of general app configurations
+    - /database methods for interacting with database (database layer)
+    - /models structure of database tables (database layer)
+    - /services entire business logic of the application (business layer)
+    - /transport http-server settings, handlers, ports (transportation layer)
 - /config contains static configurations of our app related to the process of building the application
 - /api documentation for API, schema files, protocol definition files
 - /build configuration files for project build
